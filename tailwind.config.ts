@@ -9,6 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        hv: "#AF6245",
+        heading: "#161712",
+        readmore: "#AF6245",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

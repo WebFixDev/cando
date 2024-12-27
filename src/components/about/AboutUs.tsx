@@ -1,6 +1,6 @@
 import React from "react";
 
-function Main() {
+function AboutUs() {
   return (
     <div className="flex flex-col md:flex-row container sm:py-24 py-14 mx-auto px-5 md:px-0 gap-8">
       {/* Left Side - Text */}
@@ -34,4 +34,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default AboutUs;

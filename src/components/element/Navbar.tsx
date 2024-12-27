@@ -38,7 +38,7 @@ const Navbar = () => {
       className={`bg-white/90 p-4 px-6 ${
         isSticky
           ? "fixed top-0 left-0 w-full z-50"
-          : "absolute top-[20px] rounded-2xl w-[80%] z-50 left-1/2 transform -translate-x-1/2"
+          : "absolute top-[20px] rounded-2xl sm:w-[80%] w-[90%] z-50 left-1/2 transform -translate-x-1/2"
       } transition-all`}
     >
       <div className="flex items-center justify-between">
@@ -108,30 +108,42 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       <div
-        className={`md:hidden ${isOpen ? "block" : "hidden"} transition-all`}
+        className={`md:hidden py-11 ${
+          isOpen ? "block" : "hidden"
+        } transition-all ease-in-out duration-300`}
       >
-        <a href="#" className="block text-white px-4 py-2 hover:bg-blue-700">
-          Home
-        </a>
-        <a
-          href="#services"
-          className="block text-white px-4 py-2 hover:bg-blue-700"
-        >
-          Services
-        </a>
-        <a
-          href="#about"
-          className="block text-white px-4 py-2 hover:bg-blue-700"
-        >
-          About
-        </a>
-        <a
-          href="#contact"
-          className="block text-white px-4 py-2 hover:bg-blue-700"
-        >
-          Contact
-        </a>
+        <div className="flex flex-col items-center space-y-4">
+          <Link
+            href="/"
+            className="text-black text-[20px] font-medium hover:text-hv"
+          >
+            Home
+          </Link>
+          <Link
+            href="/about-us"
+            className="text-black text-[20px] font-medium hover:text-hv"
+          >
+            About Us
+          </Link>
+          <Link
+            href="/our-work"
+            className="text-black text-[20px] font-medium hover:text-hv"
+          >
+            Our Work
+          </Link>
+          {/* Golden Contact Us Button */}
+          <Link
+            href="/contact-us"
+            className="text-white px-6 py-2 text-[20px] font-medium rounded-xl transition-all"
+            style={{
+              background: "linear-gradient(90deg, #B46044 0%, #E5AA76 100%)",
+            }}
+          >
+            Contact Us
+          </Link>
+        </div>
       </div>
     </nav>
   );

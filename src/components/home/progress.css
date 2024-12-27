@@ -1,0 +1,23 @@
+.container-bg {
+  margin: 0 auto;
+  padding: 0 1rem; /* px-4 equivalent */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: 50%; /* Default size for larger screens */
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container-bg {
+    background-size: 87%; /* Medium screen size adjustment */
+  }
+}
+@media (min-width: 268px) and (max-width: 766px) {
+  .container-bg {
+    background-image: none !important; /* Use !important to override other styles */
+  }
+}

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const graphic = `url(${graphicImage.src})`;
 
-function TopBannarImg() {
+function HomePageBannar() {
   return (
     <div className="relative md:h-[38rem] h-[32rem]  flex justify-center items-center text-white">
       {/* Background Image with Gradient Overlay */}
@@ -44,4 +44,4 @@ function TopBannarImg() {
   );
 }
 
-export default TopBannarImg;
+export default HomePageBannar;

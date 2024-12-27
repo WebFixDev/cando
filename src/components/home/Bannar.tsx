@@ -1,10 +1,10 @@
 import React from "react";
-import TopBannarImg from "@/components/atom/TopBannarImg";
+import HomePageBannar from "@/components/atom/HomePageBannar";
 
 function Bannar() {
   return (
     <div>
-      <TopBannarImg />
+      <HomePageBannar />
     </div>
   );
 }

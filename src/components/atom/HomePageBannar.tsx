@@ -1,4 +1,4 @@
-import graphicImage from "@/assets/homePage/banner.jpeg";
+import graphicImage from "@/assets/homePage/banner.jpg";
 import logo from "@/assets/logo.png";
 import Image from "next/image";
 

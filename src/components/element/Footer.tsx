@@ -85,8 +85,9 @@ function Footer() {
                     style={{ width: "inherit" }}
                   >
                     <input
-                      type="text"
+                      type="email"
                       id="footer-field"
+                      placeholder="Email"
                       name="footer-field"
                       className="w-full border bg-transparent rounded-xl border-white focus:ring-2 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />

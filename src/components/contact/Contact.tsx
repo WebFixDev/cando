@@ -5,7 +5,7 @@ import Phone from "@/assets/svg/phone.svg";
 
 function Contact() {
   return (
-    <div className="container mx-auto px-5 sm:py-24 sm:pb-32 pb-36 pt-12">
+    <div className="container mx-auto px-5 md:py-24 md:pb-32 pb-52 pt-12">
       <div className="flex flex-col md:flex-row xl:justify-evenly justify-between items-center gap-8">
         {/* Form Section */}
         <div className="w-full lg:w-2/4 xl:w-2/5">

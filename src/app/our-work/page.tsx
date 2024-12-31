@@ -7,7 +7,7 @@ function page() {
   return (
     <div>
       <Bannar />
-      <div className="py-24 md:pb-24 pb-40 ">
+      <div className="md:pb-24 pb-40 md:pt-24 pt-12">
         <div className="">
           <Progress />
         </div>

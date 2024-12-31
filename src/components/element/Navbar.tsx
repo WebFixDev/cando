@@ -86,7 +86,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">
           <button
-            className="text-white"
+            className="text-gray-950"
             onClick={toggleMenu} // Toggle menu visibility
           >
             <svg
@@ -94,7 +94,7 @@ const Navbar = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="h-6 w-6"
+              className="h-6 w-10"
             >
               <path
                 strokeLinecap="round"

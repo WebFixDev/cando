@@ -7,6 +7,7 @@ import slackLogo from "@/assets/icon/slack.png";
 import emailLogo from "@/assets/icon/gmail.png";
 import instagramLogo from "@/assets/icon/instagram.png";
 import rightArrow from "@/assets/svg/arrow-right.svg?url";
+import Link from "next/link";
 
 import Contact from "./Contact";
 
@@ -37,24 +38,36 @@ function Footer() {
                   Quick link
                 </h2>
                 <li>
-                  <a className="text-white text-base sm:text-lg md:text-xl font-normal">
+                  <Link
+                    href="/"
+                    className="text-white text-base sm:text-lg md:text-xl font-normal"
+                  >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-white text-base sm:text-lg md:text-xl font-normal">
+                  <Link
+                    href="about-us"
+                    className="text-white text-base sm:text-lg md:text-xl font-normal"
+                  >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-white text-base sm:text-lg md:text-xl font-normal">
-                    Third Link
-                  </a>
+                  <Link
+                    href="our-work"
+                    className="text-white text-base sm:text-lg md:text-xl font-normal"
+                  >
+                    Our Work
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-white text-base sm:text-lg md:text-xl font-normal">
-                    Fourth Link
-                  </a>
+                  <Link
+                    href="contact-us"
+                    className="text-white text-base sm:text-lg md:text-xl font-normal"
+                  >
+                    Contact Us
+                  </Link>
                 </li>
               </nav>
             </div>
